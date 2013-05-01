@@ -3,16 +3,3 @@
 %TestML 0.1.0
 
 Print("Hello, world!\n")
-
-=== Red appple
---- fruit: apple
---- color: red
-
-=== Orange orange
---- fruit: orange
---- color: orange
-
-=== Yellow banana
---- fruit: banana
---- color: yellow
-

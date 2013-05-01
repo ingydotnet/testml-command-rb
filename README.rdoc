@@ -1,0 +1,30 @@
+= testml/command - TestML interpreter command
+
+This gem installs a +testml+ command in your PATH that you can use to run
+standalone TestML scripts, just like any other dynamic programming language.
+
+= Synopsis
+
+    > cat example/hello-world.tml
+    #!/usr/bin/env testml
+
+    %TestML 0.1.0
+
+    Print("Hello, world!\n")
+    > ./example/hello-world.tml
+    Hello, world!
+    >
+
+= Description
+
+TestML is an Acmeist software testing language. Normally it is used to run data
+driven tests against software. Using this gem, you can also use TestML as a
+general purpose scripting language.
+
+= Status
+
+This is the first release. Set your expectations accordingly.
+
+= Copyright
+
+Copyright (c) 2013 Ingy döt Net. See LICENSE for further details.

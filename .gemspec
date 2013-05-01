@@ -16,5 +16,7 @@ Run TestML as a general purpose programming language.
 
   gem.files = `git ls-files`.lines.map{|l|l.chomp}
 
+  gem.executables << 'testml'
+
   gem.add_dependency 'testml', '>= 0.0.2'
 end
